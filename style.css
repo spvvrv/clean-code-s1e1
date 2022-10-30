@@ -22,9 +22,11 @@ img {
 }
 
 @media (max-width:768px) {
+
   .header__intro {
   text-align: center;
   }
+  
 }
 
 .main{
