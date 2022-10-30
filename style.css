@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .intro {
@@ -21,7 +21,7 @@ font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa {
+.intro {
     text-align: center;
 }
 }
@@ -63,7 +63,7 @@ border: 0px;
 color: #888;
 font-size: 15px;
 width: 60px;
-font-family: Lato, sans-serif;
+font-family: 'Lato', sans-serif;
 cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ padding: 0 9px;
 border: 1px solid #dDd;
 background: #FFF;
 border-radius: 6px;
-font-family: Lato, sans-serif;
+font-family: 'Lato', sans-serif;
 color: #888;
 }
 
@@ -152,7 +152,7 @@ transform: rotateZ(0);
 
 /* Completed */
 ul#completed__complited-list label {
-text-decoration: line-through color: #888;
+text-decoration: line-through #888;
 }
 
 /* Edit Task */
